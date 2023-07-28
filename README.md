@@ -73,16 +73,16 @@ This C program named `HtmlCodeRunner-LocalHostOpner.c` starts a Python HTTP serv
     ```
 4. Now, you should be able to run HtmlCodeRunner-LocalHostOpner from any directory in the terminal without specifying the full path.
 
-    With these steps, you'll be able to run the HtmlCodeRunner-LocalHostOpner program globally from any directory on your system, making it more convenient to use.
+    With these steps, youll be able to run the HtmlCodeRunner-LocalHostOpner program globally from any directory on your system, making it more convenient to use.
 
 ### Notes
-    - The Python HTTP server serves files from the current directory where the C program is executed.
+ - The Python HTTP server serves files from the current directory where the C program is executed.
 
-    - This is a basic example and not intended for production use. It is suitable for simple development purposes.
+ - This is a basic example and not intended for production use. It is suitable for simple development purposes.
 
-    - The program uses platform-specific commands to start the server and open the web browser. It supports both Windows and Unix-like systems (e.g., Linux, macOS).
+ - The program uses platform-specific commands to start the server and open the web browser. It supports both Windows and Unix-like systems (e.g., Linux, macOS).
 
-    - The program waits for a short period (2 seconds) after starting the server to ensure it fully initializes before opening the browser. For a more robust solution, you can implement better synchronization between the C program and the server.
+ - The program waits for a short period (2 seconds) after starting the server to ensure it fully initializes before opening the browser. For a more robust solution, you can implement better synchronization between the C program and the server.
 
 ## License
 This C program is provided under the [MIT License](LICENSE).
