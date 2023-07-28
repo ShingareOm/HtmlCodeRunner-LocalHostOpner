@@ -1,6 +1,6 @@
 # C Program for Starting Local Python HTTP Server
 
-This C program named `HtmlCodeRunner-LocalHostOpner.c` starts a Python HTTP server in the background, serves files from the current directory, and opens the server's URL in the default web browser.
+This C program named `HtmlCodeRunner-LocalHostOpener.c` starts a Python HTTP server in the background, serves files from the current directory, and opens the server's URL in the default web browser.
 
 ## Project Owner
 
